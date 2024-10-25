@@ -1,0 +1,45 @@
+.biodegradables-container {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .biodegradables-container header h1 {
+    color: #388e3c;
+  }
+  
+  .productos-section {
+    margin-top: 2rem;
+  }
+  
+  .productos-grid {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .producto-card {
+    background-color: #e8f5e9;
+    border: 1px solid #388e3c;
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 300px;
+    text-align: left;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .producto-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .producto-card h2 {
+    color: #388e3c;
+  }
+  
+  .producto-card p {
+    margin: 0.5rem 0;
+  }
+  

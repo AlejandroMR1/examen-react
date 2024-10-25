@@ -1,0 +1,52 @@
+.productos-container {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .productos-container h1 {
+    color: #388e3c;
+  }
+  
+  .productos-grid {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .producto-card {
+    background-color: #f1f8e9;
+    border: 1px solid #00796b;
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 300px;
+    text-align: left;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+
+  .producto-card:hover {
+    transform: scale(1.05); /* Efecto de ampliación al pasar el ratón */
+  }
+  
+  .producto-card h2 {
+    color: #00796b;
+  }
+  
+  .producto-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .producto-card ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+  
+  .producto-card p {
+    margin: 0.5rem 0;
+  }
+  
